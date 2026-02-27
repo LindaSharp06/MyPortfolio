@@ -14,14 +14,14 @@ export default function Hero() {
        <div className="relative group w-48 h-48 rounded-full overflow-hidden sparkle">
           <img
             src="/profile.jpg"
-            alt="Anna Nova"
+            alt="LindaSharp"
             className="w-full h-full object-cover rounded-full"
           />
         </div>
 
         {/* Heading */}
         <h2 className="text-6xl font-bold mb-4">
-          Hi, I'm Anna Nova
+          Hi, I'm Linda Sharp
         </h2>
 
         {/* Subtitle */}
@@ -50,7 +50,7 @@ export default function Hero() {
         {/* Icons */}
         <div className="flex gap-6 text-gray-600">
           <a
-            href="https://github.com/anna-nova98"
+            href="https://github.com/LindaSharp06"
             target="_blank"
           >
             <Github className="cursor-pointer hover:text-rose-500 transition" />

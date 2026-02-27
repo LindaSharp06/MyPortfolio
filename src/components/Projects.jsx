@@ -19,31 +19,35 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 gap-10">
 
           <ProjectCard
-            image="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
-            title="E-Commerce Platform"
-            description="A modern e-commerce solution with real-time inventory management, secure payment integration, and responsive design."
-            tags={["React", "Node.js", "PostgreSQL", "Stripe"]}
+           link="https://shugic.com/"
+            image="/nextjs nestJs AI.png"
+            // title="E-Commerce Platform"
+            // description="A modern e-commerce solution with real-time inventory management, secure payment integration, and responsive design."
+            tags={["Next.js", "Node.js", "PostgreSQL", "Stripe"]}
           />
 
           <ProjectCard
-            image="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
-            title="Task Management App"
-            description="Collaborative task management tool with drag-and-drop interface, team collaboration features, and real-time updates."
-            tags={["TypeScript", "React", "Firebase", "Tailwind CSS"]}
+          link="https://zapackbags.com "
+            image="/React and Node.png"
+            // title="Task Management App"
+            // description="Collaborative task management tool with drag-and-drop interface, team collaboration features, and real-time updates."
+            tags={["Node.js", "React",  "Tailwind CSS"]}
           />
 
           <ProjectCard
-            image="https://images.unsplash.com/photo-1551650975-87deedd944c3"
-            title="Mobile Fitness Tracker"
-            description="Cross-platform mobile app for tracking workouts, setting goals, and monitoring progress with beautiful data visualizations."
-            tags={["React Native", "MongoDB", "Express", "Chart.js"]}
+          link="https://www.kindertales.com"
+            image="/React1.png"
+            // title="Mobile Fitness Tracker"
+            // description="Cross-platform mobile app for tracking workouts, setting goals, and monitoring progress with beautiful data visualizations."
+            tags={["React", "MongoDB", "Express", ]}
           />
 
           <ProjectCard
-            image="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
-            title="Analytics Dashboard"
-            description="Real-time analytics dashboard with interactive charts, custom reports, and data export functionality."
-            tags={["Vue.js", "D3.js", "Python", "FastAPI"]}
+            link="https://auth.balltime.com"
+            image="/React2.png"
+            // title="Analytics Dashboard"
+            // description="Real-time analytics dashboard with interactive charts, custom reports, and data export functionality."
+            tags={["React","Python", "FastAPI"]}
           />
 
         </div>
@@ -53,18 +57,20 @@ export default function Projects() {
 }
 
 /* Reusable Card Component */
-function ProjectCard({ image, title, description, tags }) {
+function ProjectCard({ image, title, description, tags ,link}) {
   return (
     <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 hover:-translate-y-1">
 
       {/* Image */}
-      <div className="h-56 overflow-hidden">
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-full object-cover hover:scale-105 transition duration-500"
-        />
-      </div>
+      <a  href={link}>
+        <div className="h-56 overflow-hidden">
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-full object-cover hover:scale-105 transition duration-500"
+          />
+        </div>
+      </a>
 
       {/* Content */}
       <div className="p-6">

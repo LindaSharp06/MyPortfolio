@@ -23,10 +23,14 @@ export default function About() {
             <div>
               <h3 className="font-semibold mb-2">Profile</h3>
               <p className="text-gray-700 leading-relaxed">
-                Senior Web Developer with 5+ years of experience in full-stack
-                development. Delivered scalable, user-friendly applications.
-                Recently relocated and continuously improving communication skills.
-                Passionate about building modern web applications and learning new technologies.
+               I am a professional React developer with over four years of experience building modern, scalable, and highperformance web applications.
+                My primary expertise is React, Next.js, TypeScript, and modern JavaScript(ES6+).
+                I specialize in creating reusable UI components, managing complex frontend state using hooks and context,
+                and optimizing performance for high-load applications.
+                I have extensive experience working with REST APIs, backend integration (Node.js, Express), and databases
+                such as PostgreSQL and MongoDB. I focus on clean architecture, maintainable code, and excellent user
+                experience.
+                I am passionate about building responsive, accessible, and production-ready scalable frontend systems
               </p>
             </div>
           </div>
@@ -47,13 +51,16 @@ export default function About() {
               <div className="flex justify-between">
                 <h4 className="font-semibold">Senior Web Developer</h4>
                 <span className="text-sm text-gray-500">
-                  March 2025 - Present
+                  February 2025 - Present
                 </span>
               </div>
               <ul className="list-disc pl-5 mt-3 text-gray-700 space-y-2">
-                <li>Design and implement web applications</li>
-                <li>Build scalable solutions using React, Node.js, REST APIs</li>
-                <li>Collaborate in international teams</li>
+                <li>Developed responsive web applications using React, TypeScript,
+HTML5, and CSS3.</li>
+                <li>Integrated RESTful APIs across over 10 client-side platforms, increasing conversion rates by 25%.</li>
+                <li>Led a team of 5 developers to build a scalable e-commerce platform using React and Node.js.</li>
+                <li>Improved page load performance by 40% through optimization and
+code splitting.</li>
               </ul>
             </div>
 
@@ -62,17 +69,17 @@ export default function About() {
               
               <div className="flex justify-between">
                 <div>
-                  <h4 className="font-semibold">Web Developer</h4>
-                  <p className="text-sm text-gray-500">Shanghai, China</p>
+                  <h4 className="font-semibold">Frontend Developer</h4>
                 </div>
                 <span className="text-sm text-gray-500">
-                  June 2022 - February 2025
+                  March 2023 - February 2025
                 </span>
               </div>
               <ul className="list-disc pl-5 mt-3 text-gray-700 space-y-2">
-                <li>Developed and maintained web applications</li>
-                <li>Optimized UI/UX and performance</li>
-                <li>Applied university knowledge in production</li>
+                <li>Developed responsive user interfaces using React and Tailwind CSS for over 15 client-side applications.</li>
+                <li>Improved mobile conversion rates by 35%.</li>
+                <li>Optimized rendering performance using Next.js (SSR, lazy loading), reducing page load time by 50%</li>
+                <li>Collaborated closely with designers using Figma to create perfectly crafted user interfaces.</li>
               </ul>
             </div>
 
@@ -81,17 +88,16 @@ export default function About() {
               
               <div className="flex justify-between">
                 <div>
-                  <h4 className="font-semibold">Junior Web Developer</h4>
-                  <p className="text-sm text-gray-500">Shanghai, China</p>
+                  <h4 className="font-semibold">Full-Stack Developer</h4>
                 </div>
                 <span className="text-sm text-gray-500">
-                  June 2020 - May 2022
+                  April 2021 - March 2023
                 </span>
               </div>
               <ul className="list-disc pl-5 mt-3 text-gray-700 space-y-2">
-                <li>Assisted in coding and debugging</li>
-                <li>Contributed to UI and backend functionality</li>
-                <li>Built foundational technical skills</li>
+                <li>Created backend services using Express.js and PostgreSQL</li>
+                <li>Implemented SaaS features that increased user retention by 45%.</li>
+                <li>Integrated REST API and implemented database optimization strategies</li>
               </ul>
             </div>
 
@@ -110,14 +116,19 @@ export default function About() {
             <div className="flex justify-between">
               <div>
                 <h4 className="font-semibold">
-                  Shanghai Dianji University
+                 Shanghai Jiao Tong University
                 </h4>
                 <p className="text-sm text-gray-500">Shanghai, China</p>
               </div>
               <span className="text-sm text-gray-500">
-                September 2018 - June 2022
+                April 2017 - March 2021
               </span>
             </div>
+            <ul className="list-disc pl-5 mt-3 text-gray-700 space-y-2">
+                <li>Useful courses: Web Development, Data Structures, Algorithms, Software Engineering</li>
+                <li>Certification Project: Developing a Fully Functional E-Commerce Application Using React, Node.js, and
+MongoDB</li>
+              </ul>
           </div>
         </div>
 

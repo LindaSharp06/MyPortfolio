@@ -33,7 +33,7 @@ export default function Navbar() {
           whileHover={{ scale: 1.05 }}
           className="text-xl font-semibold text-rose-500 cursor-pointer"
         >
-          Anna Nova
+          Linda Sharp
         </motion.h1>
 
         {/* Links */}
